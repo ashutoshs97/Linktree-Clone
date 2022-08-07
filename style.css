@@ -1,0 +1,155 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/blurred-background-with-light-colors_1034-245.jpg?w=740&t=st=1659887050~exp=1659887650~hmac=889ae7cb456dee5a6ae19a2ce2b8de314e7599ef2fbb764dffd22c1b5df90ec4);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.heading {
+    margin: 1%;
+}
+
+.scrolling-text {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: 600;
+}
+
+.color-blue {
+    color: #3b44f6;
+}
+
+.fa-solid {
+    padding: 1%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-brands {
+    padding: 1%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-globe:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: darkgray;
+}
+
+.fa-discord:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #7289d9;
+}
+
+.fa-at:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #c71610;
+}
+
+.fa-instagram:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #8a3ab9;
+}
+
+.fa-linkedin:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #0072b1;
+}
+
+.fa-pinterest:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #E60023;
+}
+
+.fa-twitter:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #7289d9;
+}
+
+.fa-spotify:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #1DB954;
+}
+
+.fa-snapchat:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #FFFC00;
+}
+
+.fa-telegram:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #0088CC;
+}
+
+.fa-reddit:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #ff4500;
+}
+
+
+.btn {
+    width: 600px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #000000;
+    -moz-box-shadow: 0px 1px 3px #000000;
+    box-shadow: 0px 1px 3px #000000;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #000000;
+    font-size: 14px;
+    padding: 13px;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #191A19;
+    box-shadow: -1px 14px 30px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 14px 30px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 14px 30px 3px rgba(0, 0, 0, 0.75);
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+a {
+    color: #3a3a3a;
+    margin: 10px;
+    text-decoration: none;
+}

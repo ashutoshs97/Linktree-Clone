@@ -72,7 +72,7 @@ h1 {
     color: #c71610;
 }
 
-.fa-instagram:hover {
+.fa-square-instagram:hover {
     transition: all .1s ease-in-out;
     transform: scale(1.1);
     color: #8a3ab9;

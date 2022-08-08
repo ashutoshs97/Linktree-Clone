@@ -102,7 +102,7 @@ h1 {
     color: #1DB954;
 }
 
-.fa-snapchat:hover {
+.fa-square-snapchat:hover {
     transition: all .1s ease-in-out;
     transform: scale(1.1);
     color: #FFFC00;

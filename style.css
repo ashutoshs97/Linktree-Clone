@@ -119,8 +119,6 @@ h1 {
     transform: scale(1.1);
     color: #ff4500;
 }
-
-
 .btn {
     width: 600px;
     -webkit-border-radius: 28;
@@ -146,6 +144,43 @@ h1 {
     transition: all .1s ease-in-out;
     transform: scale(1.1);
     color: #ffffff;
+}
+
+.globe:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: darkgray;
+}
+
+
+.youtube:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #FF0000;
+}
+
+.discord:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #7289d9;
+}
+
+.instagram:hover {
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #8a3ab9;
+}
+
+.github:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: darkgray;
+}
+
+.gdrive:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.1);
+    color: #3cba54;
 }
 
 a {

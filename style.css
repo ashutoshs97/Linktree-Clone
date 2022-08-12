@@ -304,8 +304,14 @@ body {
     .buttons{
         text-align: center;
     }
-    
+
     .socialicons{
         text-align: center;
     }
+
+    *{
+        text-align: center;
+    }
+
+    
 }

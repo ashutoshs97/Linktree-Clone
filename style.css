@@ -1,21 +1,21 @@
 body {
-    background-image: url(https://img.freepik.com/free-vector/blurred-background-with-light-colors_1034-245.jpg?w=740&t=st=1659887050~exp=1659887650~hmac=889ae7cb456dee5a6ae19a2ce2b8de314e7599ef2fbb764dffd22c1b5df90ec4);
+    background-image: url(https://wallpaperaccess.com/full/5088752.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 200%;
     text-align: center;
 }
 
 .container {
     display: inline-block;
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .profile-pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 120px;
 }
 
 .heading {
@@ -93,7 +93,7 @@ h1 {
 .fa-twitter:hover {
     transition: all .1s ease-in-out;
     transform: scale(1.1);
-    color: #00acee ;
+    color: #00acee;
 }
 
 .fa-spotify:hover {
@@ -118,32 +118,6 @@ h1 {
     transition: all .1s ease-in-out;
     transform: scale(1.1);
     color: #ff4500;
-}
-.btn {
-    width: 600px;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    -webkit-box-shadow: 0px 1px 3px #000000;
-    -moz-box-shadow: 0px 1px 3px #000000;
-    box-shadow: 0px 1px 3px #000000;
-    font-family: "Montserrat";
-    font-weight: bold;
-    color: #000000;
-    font-size: 14px;
-    padding: 13px;
-    background: #ffffff;
-    text-decoration: none;
-}
-
-.btn:hover {
-    background: #191A19;
-    box-shadow: -1px 14px 30px 3px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -1px 14px 30px 3px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 14px 30px 3px rgba(0, 0, 0, 0.75);
-    transition: all .1s ease-in-out;
-    transform: scale(1.1);
-    color: #ffffff;
 }
 
 .globe:hover {
@@ -171,24 +145,157 @@ h1 {
     color: #8a3ab9;
 }
 
-.github:hover{
+.github:hover {
     transition: all .1s ease-in-out;
     transform: scale(1.1);
     color: darkgray;
 }
 
-.gdrive:hover{
+.gdrive:hover {
     transition: all .1s ease-in-out;
     transform: scale(1.1);
     color: #3cba54;
 }
 
 a {
-    color: #3a3a3a;
+    color: white;
     margin: 10px;
     text-decoration: none;
 }
 
-a:hover{
-    color: #3a3a3a;
+a:hover {
+    color: white;
+}
+
+*,
+*:before,
+*:after {
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.blob-btn {
+    width: 470px;
+    z-index: 1;
+    position: relative;
+    padding: 20px 50px;
+    margin-bottom: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14.5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 6px solid whitesmoke;
+}
+
+.blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #756e68;
+    transition: all 0.3s 0.2s;
+}
+
+.blob-btn:hover {
+    color: #222;
+}
+
+.blob-btn:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+}
+
+.blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url("#goo");
+}
+
+.blob-btn__blob {
+    position: absolute;
+    top: 6px;
+    width: 25%;
+    height: 100%;
+    background: whitesmoke;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+}
+
+@supports (filter: url("#goo")) {
+    .blob-btn__blob {
+        transform: translate3d(0, 150%, 0) scale(1.4);
+    }
+}
+
+.blob-btn__blob:nth-child(1) {
+    left: 0%;
+    transition-delay: 0s;
+}
+
+.blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s;
+}
+
+.blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s;
+}
+
+.blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s;
+}
+
+.blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+}
+
+@supports (filter: url("#goo")) {
+    .blob-btn:hover .blob-btn__blob {
+        transform: translateZ(0) scale(1.4);
+    }
 }

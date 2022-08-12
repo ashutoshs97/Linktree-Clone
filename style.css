@@ -300,14 +300,8 @@ body {
 }
 
 @media (max-width:1028px) {
-
-    .pricing-column:hover {
-        transform: scale(1);
-    }
-
-    .profile-pic {
-        position: static;
-        transform: rotate(0);
-        width: 55%;
+    
+    .buttons{
+        text-align: center;
     }
 }

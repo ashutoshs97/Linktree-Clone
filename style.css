@@ -301,8 +301,22 @@ body {
 
 @media (max-width:1028px) {
 
-    .blob-btn{
+    .blob-btn {
         width: 300px;
     }
-    
+
+    .fa-solid {
+        padding: 1%;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .fa-brands {
+        padding: 1%;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }

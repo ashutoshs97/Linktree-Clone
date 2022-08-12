@@ -192,7 +192,7 @@ body {
     margin-bottom: 1px;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: lightgrey;
     font-size: 14.5px;
     background-color: transparent;
     outline: none;
@@ -297,21 +297,4 @@ body {
     .blob-btn:hover .blob-btn__blob {
         transform: translateZ(0) scale(1.4);
     }
-}
-
-@media (max-width:1028px) {
-
-    .buttons{
-        text-align: center;
-    }
-
-    .socialicons{
-        text-align: center;
-    }
-
-    *{
-        text-align: center;
-    }
-
-    
 }

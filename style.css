@@ -1,7 +1,6 @@
 body {
     background-image: url(https://wallpaperaccess.com/full/5088752.jpg);
     background-repeat: no-repeat;
-    background-size: 200%;
     text-align: center;
 }
 
@@ -297,5 +296,18 @@ body {
 @supports (filter: url("#goo")) {
     .blob-btn:hover .blob-btn__blob {
         transform: translateZ(0) scale(1.4);
+    }
+}
+
+@media (max-width:1028px) {
+
+    .pricing-column:hover {
+        transform: scale(1);
+    }
+
+    .profile-pic {
+        position: static;
+        transform: rotate(0);
+        width: 55%;
     }
 }

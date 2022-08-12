@@ -298,3 +298,11 @@ body {
         transform: translateZ(0) scale(1.4);
     }
 }
+
+@media (max-width:1028px) {
+
+    .blob-btn{
+        width: 200px;
+    }
+    
+}
